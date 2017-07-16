@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 54px;
+}
+
+.content{
+  height: 100%;
+}
+
+.full-width {
+  height: 100%;
+}
+
+.inicio-box {
+  background-image: url("../images/fundo7.jpg");
+  background-size: cover;
+  min-height: 100%
+}
+
+.inicio-col, .inicio {
+  min-height: 100%;
+}
+
+.web-box {
+  background-color: #292B2C;
+  background-size: cover;
+  height: 100%
+}
+
+.menu {
+  background-color: #ff5722;
+}
+
+h1 {
+  color: #ff5722;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.feature {
+  background-color: #ff5722;  
+  color: #fff;
+}
+
+.card-col {
+  /* For mobile */
+  padding: 15px;
+}
