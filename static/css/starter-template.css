@@ -37,7 +37,7 @@ body {
 }
 
 .contact-box {
-  background-image: url("../images/fundo_web.jpg");
+  background-image: url("../images/fundo.jpg");
   background-size: cover;
   min-height: 100%
 }
@@ -74,22 +74,21 @@ i.fa {
 }
 
 .tech-images img {
-  /* max-height: 200px; */
   max-width: 150px;
 }
 
 .contact-info {
   color: #757575;
-  min-height: 300px;
   font-size: 30px;
 }
 
 .email-info {
   word-wrap: break-word;
+  font-size: 30px;
 }
 
 @media (max-width: 576px) {
-  .contact-info {
-    font-size: 12px;
+  .email-info, .email-info i.fa {
+    font-size: 12px !important;
   }
 }
