@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rangocerto/workshop/issues"
   },
-  "homepage": "https://github.com/rangocerto/workshop#readme"
+  "homepage": "https://github.com/rangocerto/workshop#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
 }
