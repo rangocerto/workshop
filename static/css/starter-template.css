@@ -86,3 +86,9 @@ i.fa {
 .email-info, .email-info i.fa {
   font-size: 16px;
 }
+
+@media (max-height: 575px) {
+  #inicio, #web, #mobile, #tecnologias {
+    height: initial !important;
+  }
+}
