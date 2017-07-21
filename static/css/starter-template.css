@@ -80,16 +80,9 @@ i.fa {
 
 .contact-info {
   color: #757575;
-  font-size: 30px;
+  font-size: 16px;
 }
 
-.email-info {
-  word-wrap: break-word;
-  font-size: 30px;
-}
-
-@media (max-width: 576px) {
-  .email-info, .email-info i.fa {
-    font-size: 12px !important;
-  }
+.email-info, .email-info i.fa {
+  font-size: 16px;
 }
